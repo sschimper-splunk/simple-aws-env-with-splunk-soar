@@ -44,11 +44,6 @@ Please select an AZ:
 */
 available_aws_regions = "1"
 
-# Please select an EC2 instance type: 1:t2.micro, 2:t2.small, 3:t2.medium, 4:t2.large, 5:t2.xlarge, 6:t2.2xlarge
-selected_ec2_instance_type = "2"
-
-# Please enter a number for the EC2 instance volume size in GiB
-root_block_volume_size = "20"
 ```
 
 Notice that for the Availability Zone and the EC2 instance type, instead of entering the complete name, there is 
