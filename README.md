@@ -1,7 +1,7 @@
-# Simple AWS Environment with Splunk installed
+# Simple AWS Environment with Splunk SOAR installed
 
 This Terraform configuration allows you to spin up a simple AWS environment, consisting of a single VPC in a region of choice, one private subnet,
-and one public subnet. The public subnet hosts a single EC2 instance with a Splunk AMI. Furthermore, the environment contains a security group, which
+and one public subnet. The public subnet hosts a single EC2 instance with a Splunk SOAR AMI. Furthermore, the environment contains a security group, which
 allows all outbound traffic and inbound traffic for ports 22, 80, 443, and 8000.
 
 ![Image](./docs/img/diagram.png)
@@ -10,7 +10,7 @@ allows all outbound traffic and inbound traffic for ports 22, 80, 443, and 8000.
 
 ## Prerequisites
 - An AWS account.
-- An AWS Marketplace subscription for the Splunk Enterprise AMI (If you don't have that yet, don't worry, I will briefly mention what to do in the *Special case* part of the  **Start up the environment** section).
+- An AWS Marketplace subscription for the Splunk SOAR AMI (If you don't have that yet, don't worry, I will briefly mention what to do in the *Special case* part of the  **Start up the environment** section).
 - A public key for AWS EC2.
 
 ## Set Up
@@ -112,7 +112,7 @@ During the deployment of the AWS infrastrucutre, you can always output this info
 ```
 
 #### Special case
-If you haven't yet subscribed for the WS Marketplace subscription for the Splunk Enterprise AMI, you will
+If you haven't yet subscribed for the WS Marketplace subscription for the Splunk SOAR AMI, you will
 be most likely greeted with an Error message like this:
 
 ![Image](./docs/img/error.png)
